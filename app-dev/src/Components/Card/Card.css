@@ -1,0 +1,32 @@
+.card-top {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(253, 239, 222);
+    border-radius: 1em 1em 0 0; 
+}
+.card-bottom {
+    display: flex;
+    justify-content: center ;
+}
+.card {
+    height: fit-content;
+    width: 60%;
+    background-color: bisque;
+    border-radius: 1em;
+}
+.card button {
+    border-radius: 1.3em;
+    padding: 0.5em 1em;
+    font-size: 1.3rem;
+    height: fit-content;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 0;
+    transition: all 0.5s cubic-bezier(0, 0.56, 0.11, 0.97);
+}
+.card button:hover {
+    padding: 0.5em 2em;
+    color: black;
+}

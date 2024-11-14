@@ -1,0 +1,45 @@
+.navbar-left {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    margin-left: 3%;
+}
+.navbar-right {
+    display: flex;
+    justify-content: space-around;
+    gap:25px;
+    margin-right: 3%;
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height:10vh;
+    background-color: bisque;
+    align-items: center;
+}
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav a::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width:0;
+    top:100%;
+    background-color: red;
+    transition: all .3s;
+}
+nav a:hover::before {
+    width: 100%;
+}
+.navbar-left button {
+    text-decoration: none;
+    background: none;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+}

@@ -1,0 +1,82 @@
+{
+  "prepaid": [
+    {
+      "id": 1,
+      "price": 859,
+      "validity": 84,
+      "special": "null",
+      "data": 1.5
+    },
+    {
+      "id": 2,
+      "price": 349,
+      "validity": 28,
+      "special": "null",
+      "data": 1.5
+    },
+    {
+      "id": 3,
+      "price": 579,
+      "validity": 56,
+      "special": "null",
+      "data": 1.5
+    },
+    {
+      "id": 4,
+      "price": 3799,
+      "validity": 365,
+      "special": "Amazon Prime 1 year included",
+      "data": 2
+    },
+    {
+      "id": 5,
+      "price": 3699,
+      "validity": 365,
+      "special": "Netflix Basic 1 month included",
+      "data": 2
+    },
+    {
+      "id": 6,
+      "price": 3499,
+      "validity": 365,
+      "special": "null",
+      "data": 1.5
+    },
+    {
+      "id": 7,
+      "price": 1749,
+      "validity": 180,
+      "special": "spotify premium 1 month included",
+      "data": 1.5
+    },
+    {
+      "id": 8,
+      "price": 539,
+      "validity": 28,
+      "special": "null",
+      "data": 4
+    },
+    {
+      "id": 9,
+      "price": 795,
+      "validity": 56,
+      "special": "null",
+      "data": 3
+    },
+    {
+      "id": 10,
+      "price": 365,
+      "validity": 28,
+      "special": "null",
+      "data": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Atimanyu",
+      "phone": "6384422233",
+      "password": "password123"
+    }
+  ]
+}
